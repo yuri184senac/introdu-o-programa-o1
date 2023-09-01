@@ -4,7 +4,7 @@ public class TesteOperadoresLogicos1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int a = 3;
-		int b =2;
+		int b = 2;
 		char c = 'z';
 		char d ='k';
 		boolean e = true;
@@ -18,12 +18,11 @@ public class TesteOperadoresLogicos1 {
 		System.out.println("f = " +f);
 		System.out.println("a é maior que b E b maior que 1 = " + (a>b&&b>1));
 		System.out.println("c é maior que d E d maior que A = " + (c>d&&d>'A'));
-		System.out.println("a é igual a b OU b menor que 5 = " + (a==b || b<5));
-		System.out.println("c é igual d OU d menor que w = " + (c==d || d<'w'));
+		System.out.println("a é igual a b OU b menor que 5 = " + (a==b || b<5)); 
+		System.out.println("c é igual d OU d menor que w = " + (c==d || d<'w')); //olhar na tabela ASCII
 		System.out.println("e  OU EXCLUSIVO f = " + (e^f));
 		System.out.println("NOT e = " + (!e));
-		
-		
-	}
 
+	}
+	
 }

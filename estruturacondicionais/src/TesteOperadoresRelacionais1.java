@@ -9,6 +9,7 @@ public class TesteOperadoresRelacionais1 {
 		System.out.println("a = " +a);
 		System.out.println("b = " + b);
 		System.out.println("a igual a b = " + (a==b));
+
 	}
 
 }
