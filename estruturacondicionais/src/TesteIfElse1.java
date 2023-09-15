@@ -16,6 +16,16 @@ public class TesteIfElse1 {
 		if (a != b) {
 			System.out.println("a é diferente do b");
 		}
+		
+		a = b;
+		System.out.println("a= " + a);
+		System.out.println("b= " + b);
+		
+		if (a == b) {
+			System.out.println("a é igual a b");
+		} else {
+			System.out.println("a é diferente de b");
+		}
 	}
 
 }

@@ -2,7 +2,7 @@
 public class TesteOperadoresLogicos1 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		// TODO Auto-generated method stub		
 		int a = 3;
 		int b = 2;
 		char c = 'z';
@@ -22,7 +22,6 @@ public class TesteOperadoresLogicos1 {
 		System.out.println("c é igual d OU d menor que w = " + (c==d || d<'w')); //olhar na tabela ASCII
 		System.out.println("e  OU EXCLUSIVO f = " + (e^f));
 		System.out.println("NOT e = " + (!e));
-
 	}
-	
+
 }
