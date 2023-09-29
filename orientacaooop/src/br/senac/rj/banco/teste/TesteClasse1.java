@@ -1,7 +1,8 @@
 package br.senac.rj.banco.teste;
-
 import br.senac.rj.banco.modelo.Conta;
 
+//import java.lang.String
+//TODA CLASSE QUE ESTA NO JAVALANG, O JAVA JÁ IMPORTA PARA VOCE.
 public class TesteClasse1 {
 
 	public static void main(String[] args) {
