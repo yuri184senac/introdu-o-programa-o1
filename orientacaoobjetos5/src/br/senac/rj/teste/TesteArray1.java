@@ -27,9 +27,7 @@ public class TesteArray1 {
 		}
 		System.out.println("meuArray2 = " + Arrays.toString(meuArray2));
 		int [][] meuArray3 = new int[3][2];
-		System.out.println("Número de colunas de meuArray3 = " + meuArray3[0].length);
-		
-		
+		System.out.println("Número de colunas de meuArray3 = " + meuArray3[0].length);		
 	}
 
 }

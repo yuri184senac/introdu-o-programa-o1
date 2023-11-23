@@ -9,6 +9,10 @@ public class Conta {
 	Conta() {
 		this.titular = "";
 	}
+	/*Método criado por conta do override*/
+	public Conta(int numAgencia, int numConta) {
+		// TODO Auto-generated constructor stub
+	}
 	public int getAgencia() {
 		return agencia;
 	}
@@ -43,6 +47,11 @@ public class Conta {
 			return true;
 		}
 	}
-
+	/*Método criado por causa do overide*/
+	public boolean sacar(double valor, int imposto) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
 	
 }

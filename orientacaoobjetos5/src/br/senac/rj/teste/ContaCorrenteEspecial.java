@@ -3,6 +3,10 @@ package br.senac.rj.teste;
 public class ContaCorrenteEspecial extends Conta {
 	private double limite;
 	
+	public ContaCorrenteEspecial(int numAgencia, int numConta) {
+		super(numAgencia, numConta);
+	}
+	
 	public double getLimite() {
 		return limite;
 	}
@@ -11,17 +15,16 @@ public class ContaCorrenteEspecial extends Conta {
 		this.limite = limite;
 	}
 
+	/*CRIOU OUTRA CLASSE NO Conta.java*/
 	@Override
-	public boolean sacar(double valor) {
+	public boolean sacar(double valor, int imposto) {
 		// TODO Auto-generated method stub
-		double novoSaldo = this.saldo - valor;
-		if (novoSaldo < this.limite*-1) {
-			System.out.println("Não há limite disponível");
+		double novoValorSaque = valor + (valor*imposto/100);
+		System.out.println("Imposto = " + imposto + "%");
+		System.out.println("Novo valor a sacar = " + novoValorSaque);
+		if (!this.sacar(novoValorSaque))
 			return false;
-		}
-		this.saldo = novoSaldo;
 		return true;
 	}
-	
 	
 }

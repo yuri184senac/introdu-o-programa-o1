@@ -11,7 +11,7 @@ public class TesteHeranca1 {
 		double limite = Double.parseDouble(sc.nextLine());
 		System.out.println("Entrar com o valor a sacar: ");
 		double valorSaque = Double .parseDouble(sc.nextLine());
-		ContaCorrenteEspecial cce1 = new ContaCorrenteEspecial();
+		ContaCorrenteEspecial cce1 = new ContaCorrenteEspecial(22, 375);
 		cce1.setLimite(limite);
 		if (!cce1.sacar(valorSaque)) {
 			System.out.println("Não foi possível efetuar o saque na conta corrente especial!");
