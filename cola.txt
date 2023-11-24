@@ -1,1 +1,5 @@
 classe abtrato ela não é obrigada a ter métodos abstratos mas se ela tiver um método abstrato a classe é obrigada a ser abstrata.
+
+
+
+ESTUDAR APARTIR DO SCANNER ENTÃO
