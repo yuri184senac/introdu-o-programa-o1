@@ -17,12 +17,12 @@ public class TesteSwing {
 	public static void apresentarMenu() {
 		// Define a janela
 		JFrame janelaPrincipal = new JFrame("Cadastro de conta"); // Janela Normal
-		janelaPrincipal.setTitle("Gestão bancária");
-		janelaPrincipal.setResizable(false); // A janela não poderá ter o tamanho ajustado
+		janelaPrincipal.setTitle("Gestï¿½o bancï¿½ria");
+		janelaPrincipal.setResizable(false); // A janela nï¿½o poderï¿½ ter o tamanho ajustado
 		janelaPrincipal.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		janelaPrincipal.setSize(400, 300); // Define tamanho da janela
 		UIManager.put("OptionPane.yesButtonText", "Sim"); 
-		UIManager.put("OptionPane.noButtonText", "Não");
+		UIManager.put("OptionPane.noButtonText", "Nï¿½o");
 		// Cria uma barra de menu para a janela principal
 		JMenuBar menuBar = new JMenuBar();
 		// Adiciona a barra de menu ao frame
@@ -33,9 +33,9 @@ public class TesteSwing {
 		// Cria e adiciona um item simples para o menu
 		JMenuItem menuConta = new JMenuItem("Conta");
 		menuAtualizar.add(menuConta);
-		// Criar a janela de atualização da conta
+		// Criar a janela de atualizaï¿½ï¿½o da conta
 		JFrame janelaConta = JanelaConta.criarJanelaConta();
-		// Adiciona ação para o item do menu
+		// Adiciona aï¿½ï¿½o para o item do menu
 		menuConta.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				janelaConta.setVisible(true);
